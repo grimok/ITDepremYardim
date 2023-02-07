@@ -9,7 +9,7 @@ from sheetsapi import table
 
 adresler = []
 
-API_KEY = '5963282287:AAEwHSvulUKIFMU_gGQ5vX3cXVHQmOuWALQ'
+API_KEY = ''
 
 bot = telebot.TeleBot(API_KEY, threaded=False)
 
