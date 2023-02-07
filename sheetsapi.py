@@ -20,7 +20,7 @@ class table:
     def __init__(self):
         SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
         SERVICE_ACCOUNT_FILE = 'keys.json'
-        self.SPREADSHEET_ID = '1oba360gqYTp2QFqMIgLwzE4VHiYJr-1VPXpwHtIJ488'
+        self.SPREADSHEET_ID = ''
 
         self.credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
